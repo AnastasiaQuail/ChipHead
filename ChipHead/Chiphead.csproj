@@ -219,9 +219,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\ButtonsManager.cs" />
     <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Compile Include="Assets\Scripts\TextColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Font\SIL Open Font License.txt" />
