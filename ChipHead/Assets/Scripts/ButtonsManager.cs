@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
+
 
 public class ButtonsManager : MonoBehaviour {
-
-    public AudioClip OnMouseEnterSound;
   
     public void LoadByIndex(int SceneIndex)
     {
@@ -20,10 +20,4 @@ public class ButtonsManager : MonoBehaviour {
         Application.Quit(); 
 #endif
     }
-
-    public void OnMouseEnter()
-    {
-        AudioManager.instance.PlaySingle(OnMouseEnterSound);
-    }
-
 }

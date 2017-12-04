@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour {
 
@@ -19,9 +21,11 @@ public class AudioManager : MonoBehaviour {
             Destroy(gameObject);
         
         DontDestroyOnLoad(gameObject);
+
+        musicSource.volume = 0.5f;
+        efxSource.volume = 0.8f;
     }
 
-    //Used to play single sound clips.
     public void PlaySingle(AudioClip clip)
     {
         efxSource.clip = clip;
@@ -35,7 +39,22 @@ public class AudioManager : MonoBehaviour {
 
         musicSource.Play();
     }
-    
+
+    public void SetEfxVolume(Slider slider)
+    {
+        efxSource.volume = slider.value * 0.8f;
+    }
+
+    public void SetMasterVolume(Slider slider)
+    {
+        AudioListener.volume = slider.value;
+    }
+
+    public void SetMuxicVolume(Slider slider)
+    {
+        musicSource.volume = slider.value * 0.5f;
+    }
+    /*
     public void RandomizeSfx(params AudioClip[] clips)
     {
         int randomIndex = Random.Range(0, clips.Length);
@@ -48,5 +67,5 @@ public class AudioManager : MonoBehaviour {
         
         efxSource.Play();
     }
-
+    */
 }
