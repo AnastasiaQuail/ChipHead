@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipHead", "ChipHead.csproj", "{4BB2518B-721B-16D0-D55A-AE6CAEBD4046}"
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChipHead.CSharp", "ChipHead.CSharp.csproj", "{421B9F8B-445E-339B-C83C-B5A56F23D5FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4BB2518B-721B-16D0-D55A-AE6CAEBD4046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BB2518B-721B-16D0-D55A-AE6CAEBD4046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BB2518B-721B-16D0-D55A-AE6CAEBD4046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BB2518B-721B-16D0-D55A-AE6CAEBD4046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421B9F8B-445E-339B-C83C-B5A56F23D5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421B9F8B-445E-339B-C83C-B5A56F23D5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421B9F8B-445E-339B-C83C-B5A56F23D5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421B9F8B-445E-339B-C83C-B5A56F23D5FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
