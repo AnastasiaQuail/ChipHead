@@ -16,6 +16,11 @@ public class Controll : MonoBehaviour {
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
 
+    //bool pullAvaliable = false;
+    //public LayerMask Pull;
+    //public Transform pullCheck;
+    //public float pullRadius = 0.5f;
+
     Rigidbody2D rb;
 
     void Awake()
@@ -54,6 +59,7 @@ public class Controll : MonoBehaviour {
     void Update()
     {
 
+       
 
         if (grounded && ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) || Input.GetKeyDown(KeyCode.Joystick1Button0)))
         {
@@ -66,6 +72,7 @@ public class Controll : MonoBehaviour {
         
     }
 
+   
 
     void Flip()
     {
